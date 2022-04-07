@@ -11,9 +11,15 @@ body{
     background-color: #B4E4E6;
 }
 
-h1,h2,p {
+h1,h2,p{
     font-family : 'Yanone Kaffeesatz',sans-serif;
-    color : #453D3D
+    color : #453D3D;
+    text-align: center;
+}
+
+img{
+    display:flex;
+    justify-content:center;
 }
 
 button {
@@ -25,4 +31,17 @@ button {
     width : 180px;
     height: 50px;
     font-size : 20px;
+}
+.item {
+    background-color : white;
+    margin : 10px;
+}
+.container2{
+    justify-content:center;
+    align-items : flex-start;
+}
+
+.flex-container {
+    display:flex;
+    list-style : none;
 }
